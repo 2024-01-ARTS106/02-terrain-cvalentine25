@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 393314035}
   - component: {fileID: 393314038}
   - component: {fileID: 393314037}
-  - component: {fileID: 393314036}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -249,19 +248,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 962404573}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &393314036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393314034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ea35d26d7c7a91469129a80f8bc498d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveVector: {x: 0, y: 0, z: 1}
 --- !u!81 &393314037
 AudioListener:
   m_ObjectHideFlags: 0
@@ -340,7 +326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &481729651
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -524,7 +510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &962404570
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -606,15 +592,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962404569}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 990.64, y: 1.08, z: 1662.52}
+  m_LocalRotation: {x: -0, y: 0.99999535, z: -0, w: 0.0030490104}
+  m_LocalPosition: {x: 990.5998, y: 1.0799999, z: 1668.9484}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 393314035}
   - {fileID: 1528299762}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 179.651, z: 0}
 --- !u!114 &962404574
 MonoBehaviour:
   m_ObjectHideFlags: 0
