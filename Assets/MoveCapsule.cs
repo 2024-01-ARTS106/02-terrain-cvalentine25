@@ -17,7 +17,7 @@ public class MoveCapsule : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update(double Speed)
     {
         //if (Input.GetMouseButton(0))
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) { transform.Translate(0, 0, 1);}
