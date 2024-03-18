@@ -17,7 +17,10 @@ public class WaveSpawner : MonoBehaviour
         Invoke("CancelInvoke", endTime);
     }
 
-    void Spawn() { Instantiate(prefab, transform.position, transform.rotation);}
+    void Spawn() 
+    { 
+        Instantiate(prefab, transform.position, transform.rotation);
+    }
     // Update is called once per frame
     void Update()
     {

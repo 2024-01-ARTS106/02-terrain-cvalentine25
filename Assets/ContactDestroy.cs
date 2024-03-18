@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ContactDestroy : MonoBehaviour
+   
 {
     void OnTriggerEnter(Collider other)
     {

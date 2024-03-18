@@ -2,13 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreOnDeath : MonoBehaviour
+public class ContactDamager : MonoBehaviour
 {
-    public int amount;
+    public float damage;
 
-    void OnDestroy()
+     void OnTriggerEnter(Collider other)
     {
-        ScoreManager.instance.amount += amount;
+        Destroy(gameObject);
+
+        Life life = GetComponent<Life>();  
+
+        if (life != null )
+        {
+            life.amount -= damage;
+        }
     }
     // Start is called before the first frame update
     void Start()
@@ -21,5 +28,4 @@ public class ScoreOnDeath : MonoBehaviour
     {
         
     }
-    
 }
